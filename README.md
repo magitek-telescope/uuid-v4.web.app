@@ -16,7 +16,7 @@ The website automatically displays a random uuid every time.
 
 <img width="1183" alt="api-screenshot" src="https://user-images.githubusercontent.com/6993514/65211183-c25a4e00-dad8-11e9-92e8-7000f9be8b5a.png">
 
-Just access https://uuid-v4.web.app.
+Just access https://uuid-v4.web.app/api.
 
 The API responses a random value in JSON.
 
