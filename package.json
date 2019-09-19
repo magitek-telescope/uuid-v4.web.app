@@ -5,10 +5,21 @@
   "repository": "ssh://git@github.com/potato4d/uuid-v4.web.app.git",
   "author": "HANATANI Takuma <mail@potato4d.me>",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "format": "prettier './**/*.{css,js,ts}' --write"
+  },
   "devDependencies": {
-    "firebase-tools": "^7.3.2"
+    "firebase-tools": "^7.3.2",
+    "prettier": "^1.18.2"
   },
   "dependencies": {
-    "parcel-bundler": "^1.12.3"
+    "@types/node": "^12.7.5",
+    "@types/uuid": "^3.4.5",
+    "parcel-bundler": "^1.12.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3",
+    "uuid": "^3.3.3"
   }
 }
