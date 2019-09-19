@@ -1,0 +1,14 @@
+{
+  "name": "uuid-v4_web_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/potato4d/uuid-v4.web.app.git",
+  "author": "HANATANI Takuma <mail@potato4d.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-tools": "^7.3.2"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
